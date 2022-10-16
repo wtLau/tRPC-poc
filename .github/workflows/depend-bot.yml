@@ -4,7 +4,7 @@ on:
     types: [opened, synchronize, reopened]
     branches:
       - 'production'
-
+permissions: read-all|write-all
 env:
   HUSKY: '0'
 
